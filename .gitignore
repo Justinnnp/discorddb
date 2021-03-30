@@ -1,0 +1,15 @@
+#env files
+.env
+.env.example
+.env.local
+.env.staging
+
+#for me!
+git rm .env --cached
+git commit -m "Stopped tracking .env File"
+git push
+
+#modemodules
+node_modules/
+npm-debug.log
+yarn-error.log
